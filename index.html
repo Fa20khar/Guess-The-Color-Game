@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guess The Color Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎨 Guess The Color</h1>
+
+<h2 id="color-code"></h2>
+
+<h3>Score: <span id="score">0</span></h3>
+<h3>Level: <span id="level">1</span></h3>
+<h3>High Score: <span id="high-score">0</span></h3>
+
+<div id="timer-bar-container">
+    <div id="timer-bar"></div>
+</div>
+
+<p id="message"></p>
+
+<div id="option-container"></div>
+
+<button id="restart">Restart Game</button>
+
+<!-- Win overlay -->
+<div id="win-screen">
+    <h1>🎉 You Completed All Levels! 🎉</h1>
+    <canvas id="confetti"></canvas>
+    <button id="win-restart">Play Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
